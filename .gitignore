@@ -1,0 +1,64 @@
+# ===============================
+# Laravel Project – BlogArchi
+# ===============================
+
+# Environnement et configuration sensibles
+.env
+.env.*
+!.env.example
+auth.json
+
+# Dépendances
+/vendor/
+node_modules/
+
+# Caches, logs et fichiers temporaires
+*.log
+/.phpunit.result.cache
+/.php_cs.cache
+/.php-cs-fixer.cache
+/storage/*.key
+/storage/logs
+/storage/framework/cache
+/storage/framework/sessions
+/storage/framework/views
+/storage/framework/testing
+/storage/pail
+
+# Public (builds et ressources générées)
+public/build
+public/hot
+public/storage
+public/js/*.map
+public/css/*.map
+/public/mix-manifest.json
+
+# IDE & éditeurs
+/.idea
+/.vscode
+/.fleet
+/.nova
+/.zed
+*.iml
+.phpactor.json
+
+# Environnements de dev locaux
+Homestead.json
+Homestead.yaml
+
+# Système
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Sauvegardes ou fichiers personnels
+*.bak
+*.tmp
+*.zip
+*.tar
+*.gz
+
+# ===============================
+# Fin du fichier
+# ===============================
